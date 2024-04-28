@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+box-sizing: border-box;
+}
+html {
+    scrollbar-width: none;
+    background: white;
+    color: black;
+    
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+.a1part, .a2part, .a3part, .a4part {
+    /* border: 1px solid white;
+    box-sizing: border-box; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a1part {
+    width: 100%;
+    height: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.a2part {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.a3part {
+    width: 100%;
+    height: 15%;
+}
+.a4part {
+    width: 100%;
+    height: 15%;
+}
+
+.playbutton {
+    height: 80%;
+}
+
+
+.image {
+    height: 90%;
+}
