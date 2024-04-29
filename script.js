@@ -182,7 +182,7 @@ closeall();
     } else {
         music1.pause();
         button1.src = 'elements/play.png';
-        music1.currentTime = 0;
+       
         music1Playing = false;
     }
 }
@@ -197,7 +197,7 @@ function playmusic2() {
     } else {
         music2.pause();
         button2.src = 'elements/play.png';
-        music2.currentTime = 0;
+        
         music2Playing = false;
     }
 }
@@ -213,7 +213,7 @@ function playmusic3() {
     } else {
         music3.pause();
         button3.src = 'elements/play.png';
-        music3.currentTime = 0;
+        
         music3Playing = false;
     }
 }
@@ -228,7 +228,7 @@ function playmusic4() {
     } else {
         music4.pause();
         button4.src = 'elements/play.png';
-        music4.currentTime = 0;
+
         music4Playing = false;
     }
 }
@@ -241,7 +241,7 @@ function playmusic5() {
     } else {
         music5.pause();
         button5.src = 'elements/play.png';
-        music5.currentTime = 0;
+    
         music5Playing = false;
     }
 }
@@ -255,7 +255,7 @@ function playmusic6() {
     } else {
         music6.pause();
         button6.src = 'elements/play.png';
-        music6.currentTime = 0;
+      
         music6Playing = false;
     }
 }
@@ -271,7 +271,7 @@ function playmusic7() {
     } else {
         music7.pause();
         button7.src = 'elements/play.png';
-        music7.currentTime = 0;
+      
         music7Playing = false;
     }
 }
@@ -285,7 +285,7 @@ function playmusic8() {
     } else {
         music8.pause();
         button8.src = 'elements/play.png';
-        music8.currentTime = 0;
+       
         music8Playing = false;
     }
 }
@@ -299,7 +299,7 @@ function playmusic9() {
     } else {
         music9.pause();
         button9.src = 'elements/play.png';
-        music9.currentTime = 0;
+  
         music9Playing = false;
     }
 }
@@ -313,7 +313,7 @@ function playmusic10() {
     } else {
         music10.pause();
         button10.src = 'elements/play.png';
-        music10.currentTime = 0;
+
         music10Playing = false;
     }
 }
@@ -326,7 +326,7 @@ function playmusic11() {
     } else {
         music11.pause();
         button11.src = 'elements/play.png';
-        music11.currentTime = 0;
+       
         music11Playing = false;
     }
 }
@@ -340,7 +340,7 @@ function playmusic12() {
     } else {
         music12.pause();
         button12.src = 'elements/play.png';
-        music12.currentTime = 0;
+      
         music12Playing = false;
     }
 }
@@ -354,7 +354,7 @@ function playmusic13() {
     } else {
         music13.pause();
         button13.src = 'elements/play.png';
-        music13.currentTime = 0;
+      
         music13Playing = false;
     }
 }
@@ -368,7 +368,7 @@ function playmusic14() {
     } else {
         music14.pause();
         button14.src = 'elements/play.png';
-        music14.currentTime = 0;
+
         music14Playing = false;
     }
 }
@@ -382,7 +382,7 @@ function playmusic15() {
     } else {
         music15.pause();
         button15.src = 'elements/play.png';
-        music15.currentTime = 0;
+
         music15Playing = false;
     }
 }
@@ -396,7 +396,7 @@ function playmusic16() {
     } else {
         music16.pause();
         button16.src = 'elements/play.png';
-        music16.currentTime = 0;
+   
         music16Playing = false;
     }
 }
@@ -410,7 +410,7 @@ function playmusic17() {
     } else {
         music17.pause();
         button17.src = 'elements/play.png';
-        music17.currentTime = 0;
+      
         music17Playing = false;
     }
 }
@@ -424,7 +424,7 @@ function playmusic18() {
     } else {
         music18.pause();
         button18.src = 'elements/play.png';
-        music18.currentTime = 0;
+     
         music18Playing = false;
     }
 }
@@ -438,7 +438,7 @@ function playmusic19() {
     } else {
         music19.pause();
         button19.src = 'elements/play.png';
-        music19.currentTime = 0;
+
         music19Playing = false;
     }
 }
@@ -452,7 +452,7 @@ function playmusic20() {
     } else {
         music20.pause();
         button20.src = 'elements/play.png';
-        music20.currentTime = 0;
+     
         music20Playing = false;
     }
 }
@@ -465,7 +465,7 @@ function playmusic21() {
     } else {
         music21.pause();
         button21.src = 'elements/play.png';
-        music21.currentTime = 0;
+     
         music21Playing = false;
     }
 }
@@ -478,7 +478,7 @@ function playmusic22() {
     } else {
         music22.pause();
         button22.src = 'elements/play.png';
-        music22.currentTime = 0;
+   
         music22Playing = false;
     }
 }
@@ -494,7 +494,7 @@ function playmusic23() {
     } else {
         music23.pause();
         button23.src = 'elements/play.png';
-        music23.currentTime = 0;
+       
         music23Playing = false;
     }
 }
@@ -508,7 +508,7 @@ function playmusic24() {
     } else {
         music24.pause();
         button24.src = 'elements/play.png';
-        music24.currentTime = 0;
+
         music24Playing = false;
     }
 }
@@ -521,7 +521,7 @@ function playmusic25() {
     } else {
         music25.pause();
         button25.src = 'elements/play.png';
-        music25.currentTime = 0;
+     
         music25Playing = false;
     }
 }
@@ -535,7 +535,7 @@ function playmusic26() {
     } else {
         music26.pause();
         button26.src = 'elements/play.png';
-        music26.currentTime = 0;
+ 
         music26Playing = false;
     }
 }
@@ -549,7 +549,7 @@ function playmusic27() {
     } else {
         music27.pause();
         button27.src = 'elements/play.png';
-        music27.currentTime = 0;
+ 
         music27Playing = false;
     }
 }
@@ -563,7 +563,7 @@ function playmusic28() {
     } else {
         music28.pause();
         button28.src = 'elements/play.png';
-        music28.currentTime = 0;
+  
         music28Playing = false;
     }
 }
@@ -578,7 +578,7 @@ function playmusic29() {
     } else {
         music29.pause();
         button29.src = 'elements/play.png';
-        music29.currentTime = 0;
+      
         music29Playing = false;
     }
 }
@@ -592,8 +592,7 @@ function playmusic30() {
         button30.src = 'elements/pause.png';
     } else {
         music30.pause();
-        button30.src = 'elements/play.png';
-        music30.currentTime = 0;
+
         music30Playing = false;
     }
 }
@@ -610,7 +609,7 @@ function playmusic31() {
     } else {
         music31.pause();
         button31.src = 'elements/play.png';
-        music31.currentTime = 0;
+   
         music31Playing = false;
     }
 }
@@ -626,7 +625,7 @@ function playmusic32() {
     } else {
         music32.pause();
         button32.src = 'elements/play.png';
-        music32.currentTime = 0;
+   
         music32Playing = false;
     }
 }
@@ -640,7 +639,7 @@ function playmusic33() {
     } else {
         music33.pause();
         button33.src = 'elements/play.png';
-        music33.currentTime = 0;
+    
         music33Playing = false;
     }
 }
@@ -655,7 +654,7 @@ function playmusic34() {
     } else {
         music34.pause();
         button34.src = 'elements/play.png';
-        music34.currentTime = 0;
+    
         music34Playing = false;
     }
 }
@@ -670,7 +669,7 @@ function playmusic35() {
     } else {
         music35.pause();
         button35.src = 'elements/play.png';
-        music35.currentTime = 0;
+    
         music35Playing = false;
     }
 }
@@ -684,7 +683,7 @@ function playmusic36() {
     } else {
         music36.pause();
         button36.src = 'elements/play.png';
-        music36.currentTime = 0;
+    
         music36Playing = false;
     }
 }
@@ -697,7 +696,7 @@ function playmusic37() {
     } else {
         music37.pause();
         button37.src = 'elements/play.png';
-        music37.currentTime = 0;
+    
         music37Playing = false;
     }
 }
@@ -710,7 +709,7 @@ function playmusic38() {
     } else {
         music38.pause();
         button38.src = 'elements/play.png';
-        music38.currentTime = 0;
+
         music38Playing = false;
     }
 }
@@ -725,7 +724,7 @@ function playmusic39() {
     } else {
         music39.pause();
         button39.src = 'elements/play.png';
-        music39.currentTime = 0;
+     
         music39Playing = false;
     }
 }
@@ -738,7 +737,7 @@ function playmusic40() {
     } else {
         music40.pause();
         button40.src = 'elements/play.png';
-        music40.currentTime = 0;
+
         music40Playing = false;
     }
 }
@@ -751,7 +750,7 @@ function playmusic41() {
     } else {
         music41.pause();
         button41.src = 'elements/play.png';
-        music41.currentTime = 0;
+     
         music41Playing = false;
     }
 }
@@ -765,7 +764,7 @@ function playmusic42() {
     } else {
         music42.pause();
         button42.src = 'elements/play.png';
-        music42.currentTime = 0;
+ 
         music42Playing = false;
     }
 }
@@ -781,7 +780,7 @@ function playmusic43() {
     } else {
         music43.pause();
         button43.src = 'elements/play.png';
-        music43.currentTime = 0;
+
         music43Playing = false;
     }
 }
@@ -795,7 +794,7 @@ function playmusic44() {
     } else {
         music44.pause();
         button44.src = 'elements/play.png';
-        music44.currentTime = 0;
+
         music44Playing = false;
     }
 }
@@ -808,7 +807,7 @@ function playmusic45() {
     } else {
         music45.pause();
         button45.src = 'elements/play.png';
-        music45.currentTime = 0;
+    
         music45Playing = false;
     }
 }
@@ -821,7 +820,7 @@ function playmusic46() {
     } else {
         music46.pause();
         button46.src = 'elements/play.png';
-        music46.currentTime = 0;
+     
         music46Playing = false;
     }
 }
@@ -834,7 +833,7 @@ function playmusic47() {
     } else {
         music47.pause();
         button47.src = 'elements/play.png';
-        music47.currentTime = 0;
+       
         music47Playing = false;
     }
 }
@@ -847,7 +846,7 @@ function playmusic48() {
     } else {
         music48.pause();
         button48.src = 'elements/play.png';
-        music48.currentTime = 0;
+    
         music48Playing = false;
     }
 }
@@ -860,7 +859,7 @@ function playmusic49() {
     } else {
         music49.pause();
         button49.src = 'elements/play.png';
-        music49.currentTime = 0;
+      
         music49Playing = false;
     }
 }
@@ -873,7 +872,7 @@ function playmusic50() {
     } else {
         music50.pause();
         button50.src = 'elements/play.png';
-        music50.currentTime = 0;
+      
         music50Playing = false;
     }
 }
@@ -984,54 +983,54 @@ button49.src = 'elements/play.png';
 button50.src = 'elements/play.png';
 
 
-let music1Playing = false;
-let music2Playing = false;
-let music3Playing = false;
-let music4Playing = false;
-let music5Playing = false;
-let music6Playing = false;
-let music7Playing = false;
-let music8Playing = false;
-let music9Playing = false;
-let music10Playing = false;
-let music11Playing = false;
-let music12Playing = false;
-let music13Playing = false;
-let music14Playing = false;
-let music15Playing = false;
-let music16Playing = false;
-let music17Playing = false;
-let music18Playing = false;
-let music19Playing = false;
-let music20Playing = false;
-let music21Playing = false;
-let music22Playing = false;
-let music23Playing = false;
-let music24Playing = false;
-let music25Playing = false;
-let music26Playing = false;
-let music27Playing = false;
-let music28Playing = false;
-let music29Playing = false;
-let music30Playing = false;
-let music31Playing = false;
-let music32Playing = false;
-let music33Playing = false;
-let music34Playing = false;
-let music35Playing = false;
-let music36Playing = false;
-let music37Playing = false;
-let music38Playing = false;
-let music39Playing = false;
-let music40Playing = false;
-let music41Playing = false;
-let music42Playing = false;
-let music43Playing = false;
-let music44Playing = false;
-let music45Playing = false;
-let music46Playing = false;
-let music47Playing = false;
-let music48Playing = false;
-let music49Playing = false;
-let music50Playing = false;
+ music1Playing = false;
+ music2Playing = false;
+ music3Playing = false;
+ music4Playing = false;
+ music5Playing = false;
+ music6Playing = false;
+ music7Playing = false;
+ music8Playing = false;
+ music9Playing = false;
+ music10Playing = false;
+ music11Playing = false;
+ music12Playing = false;
+ music13Playing = false;
+ music14Playing = false;
+ music15Playing = false;
+ music16Playing = false;
+ music17Playing = false;
+ music18Playing = false;
+ music19Playing = false;
+ music20Playing = false;
+ music21Playing = false;
+ music22Playing = false;
+ music23Playing = false;
+ music24Playing = false;
+ music25Playing = false;
+ music26Playing = false;
+ music27Playing = false;
+ music28Playing = false;
+ music29Playing = false;
+ music30Playing = false;
+ music31Playing = false;
+ music32Playing = false;
+ music33Playing = false;
+ music34Playing = false;
+ music35Playing = false;
+ music36Playing = false;
+ music37Playing = false;
+ music38Playing = false;
+ music39Playing = false;
+ music40Playing = false;
+ music41Playing = false;
+ music42Playing = false;
+ music43Playing = false;
+ music44Playing = false;
+ music45Playing = false;
+ music46Playing = false;
+ music47Playing = false;
+ music48Playing = false;
+ music49Playing = false;
+ music50Playing = false;
 }
