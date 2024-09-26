@@ -876,161 +876,25 @@ function playmusic50() {
         music50Playing = false;
     }
 }
-
 function closeall() {
-music1.pause();
-music2.pause();
-music3.pause();
-music4.pause();
-music5.pause();
-music6.pause();
-music7.pause();
-music8.pause();
-music9.pause();
-music10.pause();
-music11.pause();
-music12.pause();
-music13.pause();
-music14.pause();
-music15.pause();
-music16.pause();
-music17.pause();
-music18.pause();
-music19.pause();
-music20.pause();
-music21.pause();
-music22.pause();
-music23.pause();
-music24.pause();
-music25.pause();
-music26.pause();
-music27.pause();
-music28.pause();
-music29.pause();
-music30.pause();
-music31.pause();
-music32.pause();
-music33.pause();
-music34.pause();
-music35.pause();
-music36.pause();
-music37.pause();
-music38.pause();
-music39.pause();
-music40.pause();
-music41.pause();
-music42.pause();
-music43.pause();
-music44.pause();
-music45.pause();
-music46.pause();
-music47.pause();
-music48.pause();
-music49.pause();
-music50.pause();
+    // Pause all music elements in a loop
+    for (let i = 1; i <= 50; i++) {
+        let music = document.getElementById(`music${i}`);
+        if (music) {
+            music.pause();
+        }
+    }
 
-button1.src = 'elements/play.png';
-button2.src = 'elements/play.png';
-button3.src = 'elements/play.png';
-button4.src = 'elements/play.png';
-button5.src = 'elements/play.png';
-button6.src = 'elements/play.png';
-button7.src = 'elements/play.png';
-button8.src = 'elements/play.png';
-button9.src = 'elements/play.png';
-button10.src = 'elements/play.png';
-button11.src = 'elements/play.png';
-button12.src = 'elements/play.png';
-button13.src = 'elements/play.png';
-button14.src = 'elements/play.png';
-button15.src = 'elements/play.png';
-button16.src = 'elements/play.png';
-button17.src = 'elements/play.png';
-button18.src = 'elements/play.png';
-button19.src = 'elements/play.png';
-button20.src = 'elements/play.png';
-button21.src = 'elements/play.png';
-button22.src = 'elements/play.png';
-button23.src = 'elements/play.png';
-button24.src = 'elements/play.png';
-button25.src = 'elements/play.png';
-button26.src = 'elements/play.png';
-button27.src = 'elements/play.png';
-button28.src = 'elements/play.png';
-button29.src = 'elements/play.png';
-button30.src = 'elements/play.png';
-button31.src = 'elements/play.png';
-button32.src = 'elements/play.png';
-button33.src = 'elements/play.png';
-button32.src = 'elements/play.png';
-button33.src = 'elements/play.png';
-button34.src = 'elements/play.png';
-button35.src = 'elements/play.png';
-button36.src = 'elements/play.png';
-button37.src = 'elements/play.png';
-button38.src = 'elements/play.png';
-button39.src = 'elements/play.png';
-button40.src = 'elements/play.png';
-button41.src = 'elements/play.png';
-button42.src = 'elements/play.png';
-button43.src = 'elements/play.png';
-button44.src = 'elements/play.png';
-button45.src = 'elements/play.png';
-button46.src = 'elements/play.png';
-button47.src = 'elements/play.png';
-button48.src = 'elements/play.png';
-button49.src = 'elements/play.png';
-button50.src = 'elements/play.png';
+    // Change the button images in a loop
+    for (let i = 1; i <= 50; i++) {
+        let button = document.getElementById(`button${i}`);
+        if (button) {
+            button.src = 'elements/play.png';
+        }
+    }
 
-
- music1Playing = false;
- music2Playing = false;
- music3Playing = false;
- music4Playing = false;
- music5Playing = false;
- music6Playing = false;
- music7Playing = false;
- music8Playing = false;
- music9Playing = false;
- music10Playing = false;
- music11Playing = false;
- music12Playing = false;
- music13Playing = false;
- music14Playing = false;
- music15Playing = false;
- music16Playing = false;
- music17Playing = false;
- music18Playing = false;
- music19Playing = false;
- music20Playing = false;
- music21Playing = false;
- music22Playing = false;
- music23Playing = false;
- music24Playing = false;
- music25Playing = false;
- music26Playing = false;
- music27Playing = false;
- music28Playing = false;
- music29Playing = false;
- music30Playing = false;
- music31Playing = false;
- music32Playing = false;
- music33Playing = false;
- music34Playing = false;
- music35Playing = false;
- music36Playing = false;
- music37Playing = false;
- music38Playing = false;
- music39Playing = false;
- music40Playing = false;
- music41Playing = false;
- music42Playing = false;
- music43Playing = false;
- music44Playing = false;
- music45Playing = false;
- music46Playing = false;
- music47Playing = false;
- music48Playing = false;
- music49Playing = false;
- music50Playing = false;
+    // Set all musicPlaying flags to false in a loop
+    for (let i = 1; i <= 50; i++) {
+        window[`music${i}Playing`] = false;
+    }
 }
